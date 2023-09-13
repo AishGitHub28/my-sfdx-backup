@@ -134,6 +134,9 @@ public with sharing class AccountServiceLayer {
         }
     }
 
+    /**
+     * description of account creation 
+     */
     public static Account createDefaultAccount(){
         Account a = new Account();
         a.Name ='Default Account';
